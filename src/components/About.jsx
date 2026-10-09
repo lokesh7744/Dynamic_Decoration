@@ -24,7 +24,7 @@ export default function About() {
 
             <div className="w-full lg:w-1/2 relative bg-[#1e1e1e] h-[400px] md:h-[500px] shadow-lg rounded-sm overflow-hidden flex flex-col justify-end mt-8 lg:mt-0">
               <img 
-                src="https://images.unsplash.com/photo-1504307651254-35680f356f27?auto=format&fit=crop&q=80&w=1200" 
+                src="https://plus.unsplash.com/premium_photo-1683121325304-444b731d146c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFib3V0JTIwdXMlMjBwYWdlfGVufDB8fDB8fHww" 
                 alt="Team on Site" 
                 className="absolute inset-0 w-full h-full object-cover grayscale opacity-70"
               />
