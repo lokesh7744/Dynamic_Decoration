@@ -6,7 +6,7 @@ export default function About() {
       {/* ========================================= */}
       {/* ABOUT US HERO SECTION (Dark Theme) */}
       {/* ========================================= */}
-      <section className="w-full bg-[#111111] pt-32 md:pt-40 pb-20 md:pb-28">
+      <section className="w-full bg-[#111111] pt-32 md:pt-40 pb-16 md:pb-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             
@@ -34,6 +34,33 @@ export default function About() {
               </span>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* ========================================= */}
+      {/* INTEGRATED APPROACH SECTION (Dark Theme Continuation) */}
+      {/* ========================================= */}
+      <section className="w-full bg-[#111111] pb-20 md:pb-28">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="border-t border-neutral-800 pt-16 lg:pt-20">
+            <div className="max-w-3xl">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-neutral-100 leading-tight mb-8">
+                An Integrated Approach to <span className="text-[#c59d5f]">Commercial Spaces</span>
+              </h2>
+              <p className="text-neutral-400 text-base md:text-lg leading-relaxed font-light mb-6">
+                Every commercial space has different functional, technical, and aesthetic requirements. Dynamics Design & Decoration offers services across fit-out, MEP, civil works, acoustic solutions, and maintenance, with a focus on understanding the scope of work and the needs of each environment.
+              </p>
+              <p className="text-neutral-400 text-base md:text-lg leading-relaxed font-light mb-10">
+                From interior considerations to building services and ongoing maintenance requirements, the aim is to approach each project with clarity, practical thinking, and attention to detail.
+              </p>
+              <Link 
+                to="/services" 
+                className="inline-block bg-[#c59d5f] hover:bg-[#b08b4e] text-neutral-950 text-sm md:text-base font-semibold px-8 py-4 rounded-sm tracking-wide transition-colors duration-200"
+              >
+                Discover Our Services
+              </Link>
+            </div>
           </div>
         </div>
       </section>

@@ -33,9 +33,9 @@ export default function Sectors() {
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[600px] bg-[#1e1e1e]">
           {/* Hotel Lobby / Guest Room Placeholder Image */}
           <img 
-            src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1200" 
+            src="./hospitality.png" 
             alt="Hotel Lobby & Guest Room" 
-            className="absolute inset-0 w-full h-full object-cover grayscale opacity-80"
+            className="absolute inset-0 w-full h-full object-cover"
           />
           
           {/* Dark gradient at the bottom for text readability */}
@@ -118,9 +118,9 @@ export default function Sectors() {
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[600px] bg-[#1e1e1e]">
           {/* Retail Store Placeholder Image */}
           <img 
-            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200" 
+            src="retail78.png"
             alt="Retail Store Interior" 
-            className="absolute inset-0 w-full h-full object-cover grayscale opacity-80"
+            className="absolute inset-0 w-full h-full object-cover"
           />
           
           {/* Dark gradient at the bottom for text readability */}
@@ -143,9 +143,9 @@ export default function Sectors() {
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[600px] bg-[#1e1e1e]">
           {/* Restaurant / Open Kitchen Placeholder Image */}
           <img 
-            src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=1200" 
+            src="./Designer.png" 
             alt="Restaurant Dining Room and Open Kitchen" 
-            className="absolute inset-0 w-full h-full object-cover grayscale opacity-80"
+            className="absolute inset-0 w-full h-full object-cover"
           />
           
           {/* Dark gradient at the bottom for text readability */}

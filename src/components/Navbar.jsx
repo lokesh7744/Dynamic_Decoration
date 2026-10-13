@@ -63,6 +63,11 @@ export default function Navbar() {
               About
             </NavLink>
 
+            {/* Added: Why Choose Us Link */}
+            <NavLink to="/why-choose-us" className={navLinkStyle}>
+              Why Choose Us
+            </NavLink>
+
             <NavLink to="/contact" className={navLinkStyle}>
               Contact
             </NavLink>
@@ -134,6 +139,11 @@ export default function Navbar() {
 
           <NavLink to="/about" onClick={() => setIsOpen(false)} className={mobileNavLinkStyle}>
             About
+          </NavLink>
+
+          {/* Added: Why Choose Us Link for Mobile */}
+          <NavLink to="/why-choose-us" onClick={() => setIsOpen(false)} className={mobileNavLinkStyle}>
+            Why Choose Us
           </NavLink>
 
           <NavLink to="/contact" onClick={() => setIsOpen(false)} className={mobileNavLinkStyle}>

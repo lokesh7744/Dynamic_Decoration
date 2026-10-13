@@ -8,13 +8,13 @@ import {
 
 import NavbarHome from "./components/NavbarHome";
 import Navbar from "./components/Navbar";
-
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Sectors from "./components/Sectors";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import WhyChooseUs from './components/WhyChooseUs';
 
 // Reset scroll position when the route changes
 function ScrollToTop() {
@@ -88,6 +88,17 @@ export default function App() {
             }
           />
 
+          {/* Corrected: Why Choose Us Route (Inside the <Routes> tag and with Navbar) */}
+          <Route
+            path="/why-choose-us"
+            element={
+              <>
+                <Navbar />
+                <WhyChooseUs />
+              </>
+            }
+          />
+
           <Route
             path="/contact"
             element={
@@ -102,4 +113,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-

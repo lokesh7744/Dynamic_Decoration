@@ -13,34 +13,30 @@ export default function Hero() {
             </p>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-light leading-[1.1] text-neutral-100">
-              Spaces engineered <br />
-              to perform. <br />
+              Commercial Spaces. <br />
               <span className="italic font-serif font-normal text-[#c59d5f]">
-                Finished to impress.
+                Thoughtfully Executed.
               </span>
             </h1>
 
             <p className="text-neutral-400 text-sm md:text-base leading-relaxed max-w-xl">
-              Dynamics Design & Decoration delivers complete turnkey fit-out
-              across Dubai, Abu Dhabi and the Northern Emirates — from MEP and
-              civil works to acoustic treatment, bespoke interiors and long-term
-              maintenance. One team. One contract. One point of accountability.
+              Dynamics Design & Decoration brings together commercial fit-out, MEP, civil works, acoustic solutions, and maintenance services. We approach each project with attention to its intended use, technical requirements, and the details that shape a functional commercial space.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-4">
               {/* BUTTONS CHANGED TO LINKS */}
               <Link to="/contact" className="bg-[#c59d5f] hover:bg-[#b08b4e] text-neutral-950 text-xs md:text-sm font-semibold px-7 py-3.5 rounded-sm tracking-wider uppercase transition-all duration-200 shadow-md cursor-pointer block text-center">
-                Start Your Project
+                Discuss Your Project
               </Link>
               <Link to="/projects" className="border border-neutral-700 hover:border-neutral-500 hover:bg-neutral-800/50 text-neutral-200 text-xs md:text-sm font-medium px-7 py-3.5 rounded-sm tracking-wider uppercase transition-all duration-200 cursor-pointer block text-center">
-                View Our Work
+                Explore Our Services
               </Link>
             </div>
           </div>
 
-          <div className="w-full h-80 lg:h-[480px] rounded-sm relative overflow-hidden border border-neutral-800 shadow-2xl group cursor-pointer">
+          <div className="w-full h-80 lg:h-[480px] rounded-sm relative overflow-hidden border border-neutral-800 group cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200" 
+              src="/main.jpg"
               alt="Restaurant Interior Fit-out" 
               className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" 
             />
@@ -432,7 +428,7 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           
           <blockquote className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-serif font-light leading-[1.35] text-[#1c1a17]">
-            “[Client testimonial — e.g. how Dynamics solved a cooling problem <br className="hidden lg:inline" />
+            “[Client testimonial — e.g. how Dynamics solved a cooling problem
             in a live hotel without disrupting guests.]”
           </blockquote>
 
